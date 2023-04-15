@@ -381,17 +381,15 @@
             </button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
-                <div class="modal-field">
                     <label class="modal-label">
                         <span>Name</span>
-                        <span class="input-wrap">
+                        <div class="input-wrap">
                             <input type="text" name="user-Name" class="modal-input" placeholder="Enter Name">
                             <svg class="modal-icon" width="18" height="18">
                                 <use href="./images/input-icons.svg#icon-name"></use>
                             </svg>
-                        </span>
+                        </div>
                     </label>
-                </div>
                 <div class="modal-field">
                     <label class="modal-label">
                         <span>Phone</span>
@@ -416,17 +414,17 @@
                         </span>
                     </label>
                 </div>
-                <div class="modal-field">
+                <div class="comment-field">
                     <span class="input-text">Comment</span>
                     <label class="input-text" for="user-text"></label>
                     <textarea name="user-text" id="user-text" class="modal-textarea"
                         placeholder="Text input"></textarea>
                 </div>
-                <div class="modal-field">
+                <div class="button-field">
                     <input type="checkbox" name="I accept" id="privacy" class="input-check visually-hidden"
                         value="true">
                     <label for="privacy" class="check-text">I accept the terms and conditions of the
-                        <a href="" class="modl-ink">Privacy Policy</a> </label>
+                        <a href="" class="modal-link">Privacy Policy</a> </label>
 
                 </div>
                 <button type="submit" class="confirmation-btn">Send</button>
